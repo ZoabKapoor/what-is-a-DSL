@@ -33,7 +33,7 @@ Another feature that makes Scratch more like a pure DSL than a general purpose l
 _Is the language implemented as an internal or external DSL? 
 Justify your answer._
 
-Scratch is definitely implemented as an external DSL. Its custom syntax (of using blocks to define program logic) is not present in Squeak ([source](http://squeakbyexample.org//SBE.pdf)). 
+Scratch is definitely implemented as an external DSL. Its custom syntax (of using blocks to define program logic) is not present in Squeak ([source](http://squeakbyexample.org//SBE.pdf)). Scratch presumably has a compiler that parses a user's program and compiles it to Squeak. 
 
 
 # Host language
@@ -56,4 +56,6 @@ In Scratch, however, this is impossible. When two logic blocks shouldn't be put 
 _Identify one potential drawback of the DSL: what does a programmer or company 
 lose by using this DSL instead of a general-purpose language?_
 
-Scratch's way of organizing code makes it very hard to read. You can drag code blocks any part of the project editor, and it doesn't have support for importing other scripts aside from copying the script content onto your project editor ([source](http://wiki.scratch.mit.edu/wiki/Exporting_and_Importing#Scripts_2)). This makes it practically impossible to write, maintain, or read large projects in Scratch. In addition, Scratch doesn't have a very easy to use inline commenting system (partly because inline doesn't make sense in the context of Scratch), which is a nice feature of most general purpose programming languages.
+Scratch's way of organizing code makes it very hard to read. You can drag code blocks any part of the project editor, and it doesn't have support for importing other scripts aside from copying the script content onto your project editor ([source](http://wiki.scratch.mit.edu/wiki/Exporting_and_Importing#Scripts_2)). This makes it practically impossible to write, maintain, or read large projects in Scratch. 
+
+In addition, Scratch doesn't have a very easy to use inline commenting system (partly because inline doesn't make sense in the context of Scratch), which is a nice feature of most general purpose programming languages.

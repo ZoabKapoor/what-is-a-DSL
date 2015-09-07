@@ -1,0 +1,8 @@
+startshape serpinski
+
+rule serpinski {
+CIRCLE { }
+serpinski { y .255 s .5 b .1 sat .2 }
+serpinski { x -.25 y -.144 s .5 b .1 sat .5 }
+serpinski { x .25 y -.144 s .5 b .1 sat .8 }
+}
