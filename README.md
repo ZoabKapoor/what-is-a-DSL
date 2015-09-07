@@ -124,4 +124,4 @@ might add to your partner's work?
 - [x] Make and save a pretty picture in `firstname_lastname_variant.png`
 - [x] Answer the questions in `context-free.md`
 - [x] Submit your work
-- [] Comment on your critique partner's work
+- [ ] Comment on your critique partner's work
